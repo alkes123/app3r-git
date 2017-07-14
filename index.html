@@ -1,0 +1,728 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Submodulo DAM</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<style>
+#b1
+{ float:right; }
+#b2
+{ float:right; }
+</style>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/1.1.jpg','imagenes/2.1.jpg','imagenes/3.1.jpg','imagenes/3.3.jpg','../uni1.2.png','../uni3.1.png','imagenes/uni1.2.png','imagenes/uni3.1.png','imagenes/4.1.jpg','imagenes/5.1.jpg','imagenes/7.1.jpg','imagenes/8.1.jpg','imagenes/9.1.jpg','imagenes/a.1.jpg','imagenes/b.1.jpg','imagenes/d.1.jpg','imagenes/e.1.jpg','imagenes/f.1.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Tutorial Desarrolla aplicaciones moviles</h1>
+    </div>
+    
+      <div data-role="main" class="ui-content">
+      <br>
+     
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visor1.0.jpg" alt="visor1.0" title="visor1.0" id="wows1_0"/></li>
+		<li><img src="data1/images/visor1.1.jpg" alt="visor1.1" title="visor1.1" id="wows1_1"/></li>
+		<li><img src="data1/images/visor1.3.jpg" alt="visor1.3" title="visor1.3" id="wows1_2"/></li>
+		<li><img src="data1/images/visor1.4.jpg" alt="visor1.4" title="visor1.4" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/visor1.5.jpg" alt="wowslider.com" title="visor1.5" id="wows1_4"/></a></li>
+		<li><img src="data1/images/visor1.2.jpg" alt="visor1.2" title="visor1.2" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor1.0"><span><img src="data1/tooltips/visor1.0.jpg" alt="visor1.0"/>1</span></a>
+		<a href="#" title="visor1.1"><span><img src="data1/tooltips/visor1.1.jpg" alt="visor1.1"/>2</span></a>
+		<a href="#" title="visor1.3"><span><img src="data1/tooltips/visor1.3.jpg" alt="visor1.3"/>3</span></a>
+		<a href="#" title="visor1.4"><span><img src="data1/tooltips/visor1.4.jpg" alt="visor1.4"/>4</span></a>
+		<a href="#" title="visor1.5"><span><img src="data1/tooltips/visor1.5.jpg" alt="visor1.5"/>5</span></a>
+		<a href="#" title="visor1.2"><span><img src="data1/tooltips/visor1.2.jpg" alt="visor1.2"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es lo que veremos en esta app?</h2>
+   <p>Este modulo te mostrare un resumen</p>
+    </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es DAM?</h2>
+   <p>Informcion de DAM (Desarrolla Aplicaciones Moviles)</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de aplicaciones moviles</h2>
+     <p>Este modulo contiene informacion de html5, css, java, etc.</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Pasos para desarrollar una app</h2>
+     <p>En este modulo se te explicara como desarrollar una app</p>
+    </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Acerca de...</h2>
+     <p>Datos del desarrollador</p>
+    </a>
+    </li>
+  
+   </ul>
+  </div>
+  <br>
+  
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <h4>app3 | DAM<br>Aleks Joshua Aguilar López </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+
+<div data-role="page" id="pagina1" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Pasos para desarrollar una app</h1>
+    </div>
+      <center><h2>Que es lo que veremos en la app</h2></center>
+     	<div>
+        <center><h4>En esta aplicacion te mostrare de que trata el submodulo DAM, junto con sus clasificaciones.</h4></center>
+        <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es DAM?</h2>
+   <p>En este modulo encontraras informacion del submodulo</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ 
+ <center><h4>Tambien se te mostrara que es html5, css, dreaweaver,etc.</h4></center>
+ <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de las apps</h2>
+   <p>En este modulo encontraras informacion de html5,css,etc.</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ <center><h4>Y se te enseñara un tutorial basico de como desarrollar una aplicacion</h4></center>
+ <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Pasos para desarrollar una app</h2>
+   <p>Se te mostrara todo de como desarrollar una app</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ 
+ 
+        </div>
+         
+   
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>app3 | Pasos<br>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+   </div>  
+   
+
+<div data-role="page" id="pagina2" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Todo acerca de Aplicaciones moviles</h1>
+    </div>
+    <br>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/visor2.0.jpg" alt="visor2.0" title="visor2.0" id="wows2_0"/></li>
+		<li><img src="data2/images/visor2.1.jpg" alt="visor2.1" title="visor2.1" id="wows2_1"/></li>
+		<li><img src="data2/images/visor2.2.jpg" alt="visor2.2" title="visor2.2" id="wows2_2"/></li>
+		<li><img src="data2/images/visor2.3.jpg" alt="visor2.3" title="visor2.3" id="wows2_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/visor2.4.jpg" alt="jquery slideshow" title="visor2.4" id="wows2_4"/></a></li>
+		<li><img src="data2/images/visor2.5.jpg" alt="visor2.5" title="visor2.5" id="wows2_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor2.0"><span><img src="data2/tooltips/visor2.0.jpg" alt="visor2.0"/>1</span></a>
+		<a href="#" title="visor2.1"><span><img src="data2/tooltips/visor2.1.jpg" alt="visor2.1"/>2</span></a>
+		<a href="#" title="visor2.2"><span><img src="data2/tooltips/visor2.2.jpg" alt="visor2.2"/>3</span></a>
+		<a href="#" title="visor2.3"><span><img src="data2/tooltips/visor2.3.jpg" alt="visor2.3"/>4</span></a>
+		<a href="#" title="visor2.4"><span><img src="data2/tooltips/visor2.4.jpg" alt="visor2.4"/>5</span></a>
+		<a href="#" title="visor2.5"><span><img src="data2/tooltips/visor2.5.jpg" alt="visor2.5"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <div>
+      <center><h3>¿Que es una aplicacion movil?</h3></center>
+      <center><h4>Una aplicación móvil es una aplicación informática diseñada para ser ejecutada en teléfonos inteligentes, tabletas y otros dispositivos móviles y que permite al usuario efectuar una tarea que el programador de la app le haya asignado.</h4></center>
+      <p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/1.1.jpg',1)"><img src="imagenes/1.0.jpg" alt="" width="200" height="225" id="Image29"></a></center></p>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Mas informacion...</h1>
+     	<div>
+        
+    <div>
+ <center><a href="http://www.omnigaea.com/mundo-app/que-son-las-apps/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ ¿Que son las apps? </a></center>	
+ </div>
+ <br>
+ 
+ 
+  </div>
+</div>
+
+<h3><center>Clasificacion de apps de acuerdo su funcionlidad</center></h3>
+<h4><center>Existen diversos tipos de apps que a continuacion te mostrare</center></h4>
+<center> <h3>-Básicas</h3>
+ <h4>Este tipo de aplicaciones se basan en su pantalla de inicio ya que en cuanto se abre,mostrara temas y enlaces a acceder, en el cual al darle click, te llevará a otro un conjunto de nuevas listas.</h4></center>
+ 
+ <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/2.1.jpg',1)"><img src="imagenes/2.0.jpg" alt="" width="275" height="183" id="Image30"></a></center>
+ 
+ 
+ <br>
+ 
+ <center><h3>Juegos</h3></center>
+ <center><h4>Este tipo de apps, es muy amplia ya que puede abarcar juegos pixeleados, con algunos botones y con poco contenido hasta llegar a lo 3D.</h4></center>
+ 
+ <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/3.1.jpg',1)"><img src="imagenes/3.0.jpg" alt="" width="286" height="176" id="Image31"></a></center>
+
+ <br>
+ 
+ <center><h3>Servicios personalizados</h3></center>
+<center><h4> Estas aplicaciones están orientadas a permitir la entrada de los usuarios al contenido de una manera específica y la mayoría de las veces piden un nombre de usuario y contraseña o alguna información específica para validarle el acceso al usuario.</h4></center>
+
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/4.1.jpg',1)"><img src="imagenes/4.0.jpg" alt="" width="302" height="167" id="Image32"></a></center>
+<br>
+
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Encuentra mas clasificaciones.</h1>
+     	<div>
+  <center><a href="http://info.danthop.com/tipos-de-apps-moviles-segun-su-funcionalidad" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Clasificacion de apps</a></center>	
+ </div>
+ </div>
+ <br>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Elementos de las apps...</h1>
+     	<div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de las apps</h2>
+   <p>En este modulo encontraras informacion de html5,css,etc.</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ </div>
+ 
+  
+ 
+  </div>
+  <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Principal" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Volver al menu</h2>
+   <p>Al dar click este modulos te llevara al menu principal</p>
+    </a>
+    </li>
+    </ul>
+  </div>
+   
+  
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>app3 | Aplicaciones moviles<br>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+ </div>
+
+
+
+
+
+<div data-role="page" id="pagina3" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Elementos de las apps</h1>
+    </div>
+  
+      <center><h3>¿Que es html5?</h3></center>
+      <center><h4>Las siglas html significa Hypertext Markup Lenguaje, donde html 5 es una mejor version que la 4ta version, ya que este ofrece una amplia extension de herramientas</h4></center>
+      
+      
+      
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/5.1.jpg',1)"><img src="imagenes/5.0.jpg" alt="" width="225" height="225" id="Image46"></a></center>
+  
+      <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+    
+         <div>
+ <center><a href="https://hipertextual.com/archivo/2013/05/entendiendo-html5-guia-para-principiantes/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Mas De HTML5</a></center>		
+  
+    </div>
+    </div>
+  
+  <center><h3>¿Que es Dreamweaver? </h3></center>
+   <center><h4>Adobe Dreamweaver es una aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares.</h4></center>
+   
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','imagenes/7.1.jpg',1)"><img src="imagenes/7.0.jpg" alt="" width="225" height="225" id="Image47"></a></center>
+  
+  
+      <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas acerca de Dreamweaver</h1>
+    
+         <div>
+ <center><a href="http://tutorialdreamweave.blogspot.mx/p/concepto_3888.html" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Mas De Dreamweaver</a></center>		
+  
+    </div>
+    </div>
+  
+  
+  <center><h3>¿Que es CSS?</h3></center>
+ <center><h4> Las siglas CSS3 significan Cascading Style Sheet, las hojas de estilo en cascada nos ofrecen las probabilidad de definir reglas y estilos de presentación en diferentes dispositivos ya sea en PC, portátiles, móviles, etc.
+Las hojas de estilo nos permiten definir de manera eficiente temas, estilos y animaciones para la página o aplicación.</h4></center>
+
+<center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','imagenes/8.1.jpg',1)"><img src="imagenes/8.0.jpg" alt="" width="296" height="170" id="Image48"></a><center>
+
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion de CSS3</h1>
+    
+         <div>
+ <center><a href="http://html5.dwebapps.com/que-es-css3/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Mas De Dreamweaver</a></center>		
+  
+    </div>
+    </div>
+  
+
+<center><h3>¿Que es JavaScript?</h3></center>
+<center><h4>Es un lenguaje de programación que se usa para crear programas que son insertados en una pagina web, con javasript se pueden crear efectos e interactuar con los usuarios.</h4></center>
+
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/9.1.jpg',1)"><img src="imagenes/9.0.jpg" alt="" width="299" height="168" id="Image49"></a></center>
+
+
+ <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion de CSS3</h1>
+    
+         <div>
+ <center><a href="http://www.masadelante.com/faqs/javascript" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Mas De JavaScript</a></center>		
+  
+    </div>
+    </div>
+    
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+  </div>
+  
+
+<div data-role="page" id="pagina4" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Pasos para desarrollar una app</h1>
+    </div>
+      <center><h3>Pasos para desarrollar una aplicacion movil</h3></center>
+      
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/visor3.0..jpg" alt="visor3.0." title="visor3.0." id="wows3_0"/></li>
+		<li><img src="data3/images/visor3.1.jpg" alt="visor3.1" title="visor3.1" id="wows3_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data3/images/visor3.2.jpg" alt="css slider" title="visor3.2" id="wows3_2"/></a></li>
+		<li><img src="data3/images/visor3.3.jpg" alt="visor3.3" title="visor3.3" id="wows3_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor3.0."><span><img src="data3/tooltips/visor3.0..jpg" alt="visor3.0."/>1</span></a>
+		<a href="#" title="visor3.1"><span><img src="data3/tooltips/visor3.1.jpg" alt="visor3.1"/>2</span></a>
+		<a href="#" title="visor3.2"><span><img src="data3/tooltips/visor3.2.jpg" alt="visor3.2"/>3</span></a>
+		<a href="#" title="visor3.3"><span><img src="data3/tooltips/visor3.3.jpg" alt="visor3.3"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+      <center><h4>A continuacion te mostrare como desarrollar una aplicacion movil a travez de una serie de pasos</h4></center>
+      <center><img src="imagenes/6.0.JPG" width="80%"></center>
+      <center><img src="imagenes/6.1.JPG" width="80%"></center>
+      <center><img src="imagenes/6.2.JPG" width="80%"></center>
+      <center><img src="imagenes/6.3.JPG" width="80%"></center>
+      <center><img src="imagenes/6.4.JPG" width="80%"></center>
+      <center><img src="imagenes/6.5.JPG" width="80%"></center>
+      <center><img src="imagenes/6.6.JPG" width="80%"></center>
+      <center><img src="imagenes/6.7.JPG" width="80%"></center>
+      <center><img src="imagenes/6.8.JPG" width="80%"></center>
+      <center><img src="imagenes/6.9.JPG" width="80%"></center>
+      <center><img src="imagenes/6.10.JPG"	width="85%"></center>
+  
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Presentacion prezi</h1>
+     	<div>
+        <center><h3>Nota:Para visualizar la presentacion deberas estar conectado a una red de internet</h3></center>
+  <center><a href="https://prezi.com/e3yddmurix26/desarrollo-de-aplicaciones-moviles/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Presentacion de pasos</a></center>	
+    </div>
+    </div>
+  
+    
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas detalles...</h1>
+     <div>
+     <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+     	<li class="ui-first-child ui-last-child">
+   <a href="#pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Detalles sobre las apps usadas</h2>
+   <p>Al acceder a este modulo, aprenderas detalles de las apps usadas</p>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <br>
+    <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Principal" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Volver al menu</h2>
+   <p>Al dar click este modulos te llevara al menu principal</p>
+    </a>
+    </li>
+    </ul>
+    </div>
+    
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>app3 | Pasos<br>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>    
+
+
+<div data-role="page" id="pagina5" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Pasos para desarrollar una app</h1>
+    </div>
+      <center><h2>Desarrollador</h2></center>
+         <div>
+         <center><h4>-Aleks Joshua Aguilar Lopez</h4></center>
+         <center><h4>-Especialidad: Programacion</h4></center>
+         <center><h4>-Grupo: 4G</h4></center>
+         <center><h4>-Recursamiento<br>Email:aleksjoshuaa@gmail.com</h4></center>
+         
+         <center><h4>"Esta aplicacion muestra informacion del submodulo de DAM"</h4></center>
+         <center><h4>Docente:Jose Antonio Gomez Hernandez</h4></center>
+         <!--<marquee behavior="alternate" direction="up" width="80%"><marquee direction="right">:V</marquee></marquee> -->
+         <center><img src="imagenes/gatito.gif" width="330" height="310" alt=""/> </center>
+         </div>
+         
+         <div style="width:60%;">
+ <div id="b1">
+ <a href="https://www.facebook.com/aleks.aguilarlopez" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Facebook </a>
+ </div>
+ <div id="b2">
+ <a href="https://damcbtis16.milaulas.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ DAM </a>
+ </div>
+ 
+ </div>
+         
+   
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>app3 | Pasos<br>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+   </div>  
+   
+   
+ <!--<div data-role="collapsible" data-content-theme="false">
+  <h1>Que es lo que veremos en la app</h1>
+     	<div>
+        <center><h4>En esta aplicacion te mostrare de que trata el submodulo dam, junto con sus clasificaciones.</h4></center>
+        <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de las apps</h2>
+   <p>En este modulo encontraras informacion de html5,css,etc.</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ 
+ <center><h4>Tambien se te mostrara que es html5, css, dreaweaver,etc.</h4></center>
+ <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de las apps</h2>
+   <p>En este modulo encontraras informacion de html5,css,etc.</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ <center><h4>Y se te enseñara un tutorial basico de como desarrollar una aplicacion</h4></center>
+ <div>
+  <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Elementos de las apps</h2>
+   <p>En este modulo encontraras informacion de html5,css,etc.</p>
+    </a>
+    </li>
+    </ul>
+ </div>
+ <br>
+ 
+ 
+        </div>
+        </div>
+        
+<br>-->
+
+<div data-role="page" id="pagina6" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Pasos para desarrollar una app</h1>
+    </div>
+      <center><h2>Informacion de las aplicaciones usadas</h2></center>
+         <div>
+         <h3><center>ThemeRoller</center></h3>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image60','','imagenes/a.1.jpg',1)"><img src="imagenes/a.0.jpg" width="275" height="183" id="Image60"></a></center>
+         
+         
+       
+          <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+    
+         <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=_ySggtU-ZTU" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es ThemeRoller?</h2>
+   <p>Se te hablara de que es y como funciona themeroller</p>
+    </a>
+  
+    </ul>
+    </li>
+    </div>
+    <br>
+ <center><a href="https://themeroller.jquerymobile.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Pagina oficial</a></center>	
+ </div>
+ </div>
+ 
+         <br>
+         
+<h4><center>Es una pagina departe de JQuery Mobile que permite colocar un tema a la plantilla de una pagina web o app, donde el usuario personaliza el tema, se tendra que descargar y colocar dentro de la carpeta de CSS</center></h4>
+         <br>
+         <h3><center>Github</center></h3>
+         <h4><center>Este sube los archivos de la aplicación a la nube creando un repositorio</center></h4>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image61','','imagenes/b.1.jpg',1)"><img src="imagenes/b.0.jpg" width="284" height="177" id="Image61"></a></center>
+          
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Tutorial</h1>
+     <div>
+     <br>
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=Uw8SIaAK-vw" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Tutorial de GitHub</h2>
+   <p>Se te hablara de que es y como funciona github</p>
+    </a>
+  </li>
+    </ul>
+   
+    <br>
+ <center><a href="https://github.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Pagina oficial</a></center>	
+ </div>
+ </div>
+ </div>
+ 
+         
+         <br>
+         <h3><center>PhoneGap</center></h3>
+         <h4><center>Se encarga de empaquetar los archivos de la aplicación, conviertiendo estos en la APK, que despues se descargara</center></h4>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image62','','imagenes/c.0.jpg',0)"><img src="imagenes/c.1.jpg" width="329" height="153" id="Image62"></a></center>
+         <br>
+         <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+     <div>
+     <br>
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=CmgY6K3AvjY" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es PhoneGap?</h2>
+   <p>Se te hablara de que es y como funciona PhoneGap</p>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <br>
+ <center><a href="https://build.phonegap.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Pagina oficial</a></center>	
+ </div>
+ </div>
+         <br>
+         
+         <h3><center>GenyMotion</center></h3>
+         <h4><center>GenyMotion es un emulador de un celular android, que es capaz de interactuar como un verdadero celular (a expecion de red wifi, cámara, gps, etc.) por lo que no todas las aplicaciones mobiles que se quieran usar funcionaran correctamente.</center></h4>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','imagenes/d.1.jpg',1)"><img src="imagenes/d.0.jpg" width="224" height="225" id="Image63"></a></center>
+         <br>
+         <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+    
+         <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=P_BMREZp2uI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que es Genymotion?</h2>
+   <p>Se te hablara de que es genymotion</p>
+    </a>
+   </li>
+    </ul>
+    </div>
+    <br>
+ <center><a href="https://www.genymotion.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Pagina oficial</a></center>	
+ </div>
+
+         <br>
+         
+         
+         <h3><center>¿Que es una APK?</center></h3>
+         <h4><center>APK significa: Android Aplication Package, es un archivo ejecutable para sistemas operativos para dispositivos Android, este formato es una variante del formato JAR de Java y se usa para distribuir e instalar componentes empaquetados para la plataforma Android, usualmente las APKS 	son juegos o aplicaciones sin necesidad de usar la Play Store </center></h4>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/e.1.jpg',1)"><img src="imagenes/e.0.jpg" width="313" height="161" id="Image64"></a></center>
+         <br>
+          <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+    
+         <div>
+ <center><a href="https://www.youtube.com/watch?v=00MiN-Gv7ok" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+ Todo sobre las APK</a></center>		
+  
+    </div>
+    </div>
+   
+    <br>
+         
+         
+         <h3><center>IconArchive</center></h3>
+         <h4><center>Es una pagina donde se puede buscar cualquier icono que un usuario desee, la pagina te permite descargar icono de tipo PNG,JPEG, donde al descargarlo se ubicara en la carpeta Res, despues en android.</center></h4>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image65','','imagenes/f.1.jpg',1)"><img src="imagenes/f.0.jpg" width="359" height="140" id="Image65"></a></center>
+         <br>
+         
+          <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion</h1>
+    
+         <div>
+         <center><a href="https:http://www.iconarchive.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+Pagina de IconArchive</a></center>		
+ 
+    </div>
+    </div>
+   
+    <br>
+    
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Principal" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Volver al menu</h2>
+   <p>Al dar click este modulos te llevara al menu principal</p>
+    </a>
+    </li>
+    </ul>
+  </div>
+         
+        
+   
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>app3 | Pasos<br>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+ 
+  
+   
+
+</body>
+</html>
+
+
+         
